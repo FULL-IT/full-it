@@ -10,7 +10,6 @@
 			myZoom = 16;
 			function initialize() {
 				var mapOptions = {
-			    var result = str.link("https://www.google.ro/maps/place/FULL-IT/@44.4311798,26.1286753,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1fed8127b785b:0xfeec10a100bf7bd!8m2!3d44.431176!4d26.130864");
 					zoom: myZoom,
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					center: myLatlng,
