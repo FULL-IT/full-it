@@ -1,6 +1,6 @@
-/* Theme Name:iDea - Clean & Powerful Bootstrap Theme
+/* Theme Name:FULL-IT
  * Author:HtmlCoder
- * Author URI:http://www.htmlcoder.me
+ * Author URI:http://full-it.ro
  * Author e-mail:htmlcoder.me@gmail.com
  * Version: 1.4
  * Created:October 2014
