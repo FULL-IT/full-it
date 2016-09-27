@@ -1,7 +1,6 @@
-/* Theme Name:FULL-IT
+/* Theme Name: FULL-IT
  * Author:HtmlCoder
  * Author URI:http://full-it.ro
- * Author e-mail:htmlcoder.me@gmail.com
  * Version: 1.4
  * Created:October 2014
  * License URI:http://support.wrapbootstrap.com/
