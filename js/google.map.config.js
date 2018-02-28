@@ -15,6 +15,7 @@
 					center: myLatlng,
 					scrollwheel: true,
 					zoomControl: true,
+					scrollwheel: true,
 					
 				};
 
@@ -24,6 +25,9 @@
 				marker = new google.maps.Marker({
 					map:map,
 					draggable: false,
+					scrollwheel: true,
+					zoomControl: true,
+					scrollwheel: true,
 					animation: google.maps.Animation.DROP,
 					position: myLatlng
 
@@ -35,7 +39,7 @@
 					
 				});
 				
-				map.setOptions({draggable: false, zoomControl: true, scrollwheel: false, disableDoubleClickZoom: true});
+				map.setOptions({draggable: false, zoomControl: true, scrollwheel: true, disableDoubleClickZoom: true});
 
 				
 			}
