@@ -6,15 +6,13 @@
 		if ($("#map-canvas").length>0) {
 			var map, myLatlng, myZoom, marker;
 			// Set the coordinates of your location
-			myLatlng = new google.maps.LatLng(44.4316526,26.0326447);
+			myLatlng = new google.maps.LatLng(44.4321771,26.0301689);
 			myZoom = 16;
 			function initialize() {
 				var mapOptions = {
 					zoom: myZoom,
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					center: myLatlng,
-					scrollwheel: true,
-					zoomControl: true,
 					scrollwheel: true,
 					
 				};
@@ -25,9 +23,6 @@
 				marker = new google.maps.Marker({
 					map:map,
 					draggable: false,
-					scrollwheel: true,
-					zoomControl: true,
-					scrollwheel: true,
 					animation: google.maps.Animation.DROP,
 					position: myLatlng
 
@@ -39,7 +34,7 @@
 					
 				});
 				
-				map.setOptions({draggable: false, zoomControl: true, scrollwheel: true, disableDoubleClickZoom: true});
+				map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
 
 				
 			}
