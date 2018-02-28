@@ -22,7 +22,7 @@
 				map = new google.maps.Map(document.getElementById("map-canvas"),mapOptions);
 				marker = new google.maps.Marker({
 					map:map,
-					draggable: false,
+					draggable: true,
 					animation: google.maps.Animation.DROP,
 					position: myLatlng
 
@@ -34,7 +34,7 @@
 					
 				});
 				
-				map.setOptions({draggable: false, zoomControl: false, scrollwheel: true, disableDoubleClickZoom: true});
+				map.setOptions({draggable: true, zoomControl: true, scrollwheel: true, disableDoubleClickZoom: true});
 
 				
 			}
