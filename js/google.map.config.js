@@ -13,7 +13,7 @@
 					zoom: myZoom,
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					center: myLatlng,
-					scrollwheel: true,
+					scrollwheel: true
 					
 				};
 
