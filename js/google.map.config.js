@@ -14,6 +14,7 @@
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					center: myLatlng,
 					scrollwheel: true,
+					zoomControl: true,
 					
 				};
 
@@ -34,7 +35,7 @@
 					
 				});
 				
-				map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+				map.setOptions({draggable: false, zoomControl: true, scrollwheel: false, disableDoubleClickZoom: true});
 
 				
 			}
