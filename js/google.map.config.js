@@ -34,7 +34,7 @@
 					
 				});
 				
-				map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+				map.setOptions({draggable: false, zoomControl: false, scrollwheel: true, disableDoubleClickZoom: true});
 
 				
 			}
