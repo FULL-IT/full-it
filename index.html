@@ -70,6 +70,34 @@
 			"boxed": boxed layout mode e.g. <body class="boxed">
 			"pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> 
 	-->
+	
+			<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="705192072953505"
+  logged_in_greeting="Bună ziua! Cum vă putem ajuta?"
+  logged_out_greeting="Bună ziua! Cum vă putem ajuta?">
+</div>
+	
+	
 	<body class="front no-trans">
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -1667,33 +1695,6 @@
 					</div>
 				</div>
 				<!-- .subfooter end -->
-					
-							<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v3.3'
-    });
-  };
-
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="705192072953505"
-  logged_in_greeting="Bună ziua! Cum vă putem ajuta?"
-  logged_out_greeting="Bună ziua! Cum vă putem ajuta?">
-</div>
-
 			</footer>
 			<!-- footer end -->
 
